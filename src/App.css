@@ -1,0 +1,388 @@
+.head{
+  background-color: #111111;
+  height:100vh;
+  width: 100vw;
+  padding-left: 150px;
+}
+
+.logo img{
+  margin-top: 25px;
+}
+.logo{
+  float: left;
+}
+.contact{
+  margin-left: 80%;
+  margin-right: 150px;
+  height: 100px;
+  line-height:100px;
+
+}
+.contact a{
+  margin-left: 30px;
+}
+.contact a img{
+  margin-top: 25px;
+}
+
+/* herooooooooooooooo */
+
+.textBox{
+  color: white;
+  min-height: 400px;
+  padding-top: 120px;
+}
+
+.title{
+  font-size: 70px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.para{
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+.textBox .btn{
+  height: 50px;
+  width: 120px;
+  line-height: 30px;
+  font-size: 18px;
+  transition: 0.5s
+}
+.textBox .btn:hover{
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+.btn img{
+  height: 50px;
+  transform: translate(65px,-32px);
+  transition: 0.5s
+}
+
+
+.heroImg img{
+  height: 570px;
+  transform: translate(-130px ,-30px);
+}
+
+.socialList{
+  list-style: none;
+  margin-top: 120px;
+  margin-left: 50px;
+  padding: 0;
+  
+}
+
+.socialList li{
+  width: 35px;
+}
+
+.socialList svg{
+  height: 32px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.anchor{
+  height: 32px !important;
+  width: 32px !important;
+  
+}
+
+.socialList svg path:hover{
+  fill: white;
+  transition: 0.5s;
+}
+
+svg{
+  margin-top: 8px;
+}
+
+.workBtn{
+  width: 150px;
+  height: 50px;
+  transform: translate(520px,-50px);
+  line-height: 50px;
+
+}
+
+.row hr{
+  width: 30px;
+  transform: rotate(90deg);
+  border-width:3px;
+  border-color:rgb(248, 248, 255);
+  margin-left: 90px;
+  margin-top: 20px;
+}
+
+
+/* *********************** */
+
+.main{
+  width: 100vw;
+  height: 700px;
+  border-top: 1px solid white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/* .heading{
+  height: 80px;
+  width: 400px;
+  line-height: 80px;
+  color: #1788ae;
+  text-align: center;
+  margin: 0px auto;
+  border: 3px solid #09b7f1;
+  border-top: none;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+} */
+
+.heading{
+  height: 70px;
+  width: 400px;
+  line-height: 70px;
+  color: #1788ae;
+  text-align: center;
+  margin: 20px auto;
+  border: 3px solid #09b7f1;
+  border-radius: 10px;
+}
+.outer{
+  margin-top:20px;
+}
+
+.imgBox{
+  height: 300px;
+}
+.inImg{
+  height: 100%;
+  width:400px;
+  margin: 0 120px;
+}
+
+.inImg2{
+  height: 550px;
+  width: 400px;
+  margin: 0 110px;
+}
+.inImg2 img{
+  transform: translateY(-140px);
+}
+.imgBox img{
+  height: 100%;
+}
+
+.descBox h3{
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.task2 .descBox {
+  padding-left: 100px;
+}
+
+.techUse{
+  list-style: none;
+}
+.techUse li{
+  border: 1px solid black;
+  float: left;
+  height: 35px;
+  width: 120px;
+  margin: 0 12px;
+  text-align: center;
+  line-height: 35px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+.btn a{
+  color: white;
+  text-decoration: none;
+}
+
+.outerBox{
+  height: 650px;
+  width: 100vw;
+  margin-top: 30px;
+}
+
+.cHeading{
+  height: 70px;
+  width: 300px;
+  line-height: 70px;
+  color: #1788ae;
+  text-align: center;
+  margin: 0px auto;
+  border: 2px solid #1788ae;
+  border-radius: 5px;
+}
+
+.cImgBox{
+  height: 500px;
+}
+
+.cImgBox img{
+  height: 100%;
+  width: 100%;
+}
+
+.cForm{
+  padding: 32px;
+}
+
+.cForm label{
+  color: rgb(73, 71, 71);
+  margin:5px;
+}
+
+.cForm input , textarea{
+  margin-bottom: 18px;
+  height: 45px;
+  width: 100%;
+  border: 0.5px solid gray;
+  border-radius: 8px;
+  padding-left: 20px;
+}
+
+#message{
+  padding-top: 20px;
+  height: 180px;
+ margin-bottom: 18px;
+}
+
+#button{
+  width: 100%;
+  height: 50px;
+}
+
+#button img{
+  height: 30px;
+  transform: translate(0px,0px);
+}
+
+
+.footer{
+  height: 150px;
+  width: 100vh;
+}
+
+.footer .col-4{
+  text-align: center;
+  font-size: 14px;
+  color: gray;
+}
+
+.footer img{
+  height: 90px;
+}
+
+.footer .col-4 a{
+  text-decoration: none;
+  color: gray;
+}
+
+
+.about{
+  height: 700px;
+  width: 100%;
+  background-color: #111111;
+  margin-top: 150px;
+}
+
+.abt-text{
+  height: 700px;
+  width: 100%;
+  padding:50px;
+}
+
+.abt-text h1{
+  font-size: 24px;
+  color:#1788ae;
+  margin:0 0 20px 100px;
+}
+
+.para{
+  width:375px;
+  color: #ececec;
+  font-size: 16px;
+  margin-left: 100px;
+}
+
+.abtTech{
+  height: 180px;
+  width: 500px;
+  margin-left: 60px;
+  margin-top: -15px;
+}
+.techList{
+  list-style: none;
+  color: #ececec;
+  font-size: 14px;
+}
+.techList li{
+  height: 30px;
+  border: 1px solid #383838;
+  width: fit-content;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 20px;
+  float: left;
+  margin: 0 10px 10px 0;
+  padding: 3px;
+  box-sizing: content-box;
+}
+
+.mernIcon{
+  margin-top: 50px;
+  margin-left: 80px;
+}
+
+.mernIcon img{
+  margin-left: 30px;
+}
+
+.iconName{
+  height: 30px;
+  text-align: start;
+  width: 350px;
+  margin: 5px 25px 0 25px;
+}
+
+.iconName h1{
+margin-left: 22px; 
+ float: left;
+ letter-spacing: 40px
+}
+
+#mongo{
+  color:#47a248;
+}
+#express{
+  color:#ffffff;
+}
+#react{
+  color:#61dafb;
+}
+#node{
+  color:#8cc84b;
+}
+
+.abt-img img{
+  height: 500px;
+  margin-left:-50px;
+  margin-top: 100px;
+}
+
+.error{
+  font-size: 14px;
+  margin:0;
+  line-height: 0px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  color: red;
+}
